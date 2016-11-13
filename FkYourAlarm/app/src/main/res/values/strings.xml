@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fk Your Alarm</string>
+    <string name="personal_label">Personal Alarms</string>
+    <string name="paired_label">Paired Alarms</string>
+    <string name="add_alarm_label">Add Alarm</string>
+
+</resources>

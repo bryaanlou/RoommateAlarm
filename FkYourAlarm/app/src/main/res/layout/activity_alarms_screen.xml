@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:id="@+id/activity_alarms_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AlarmsScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paired_label"
+        android:id="@+id/pairLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_label"
+        android:id="@+id/personalLabel"
+        android:layout_marginTop="186dp"
+        android:layout_below="@+id/pairLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/add_alarm_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/addAlarmButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="addAlarm" />
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="180dp"
+        android:background="@drawable/border"
+        android:scrollbars="none"
+        android:layout_below="@+id/pairLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1">
+        <TableLayout
+            android:id="@+id/pairedTable"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </TableLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="180dp"
+        android:background="@drawable/border"
+        android:scrollbars="none"
+        android:id="@+id/personalTableScroll"
+        android:layout_weight="1"
+        android:layout_below="@+id/personalLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TableLayout
+            android:id="@+id/personalTable"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

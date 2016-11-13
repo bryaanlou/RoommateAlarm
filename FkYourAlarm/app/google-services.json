@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "795464004931",
+    "firebase_url": "https://fuck-your-alarm.firebaseio.com",
+    "project_id": "fuck-your-alarm",
+    "storage_bucket": "fuck-your-alarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795464004931:android:da4a882f037d5725",
+        "android_client_info": {
+          "package_name": "same.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795464004931-l2fbkavv190pt723ol0he7ubgc879avp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2QNmOPBRY7IVmA_LTziheQ2l421QqhlA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795464004931:android:647755849e1037f3",
+        "android_client_info": {
+          "package_name": "com.example.andrew.fuckyouralarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795464004931-l2fbkavv190pt723ol0he7ubgc879avp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2QNmOPBRY7IVmA_LTziheQ2l421QqhlA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
